@@ -4,7 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Praneeth Kumar Kothari — AI Quality Architect</title>
-<meta name="description" content="AI Quality Architect | AI-assisted and agentic quality engineering | Playwright + TypeScript | Cloud-native, containerised, scalable test automation.">
+<meta name="description" content="Praneeth Kumar Kothari — Test Architect &amp; AI Quality Architect (13+ yrs). Playwright + TypeScript, Agentic AI, RAG, Playwright MCP, WCAG 2.2 AA, and cloud-native CI/CD across GCP, Azure &amp; AWS.">
+
 <style>
   :root{--bg:#0d1117;--card:#161b22;--line:#21262d;--tx:#e6edf3;--mut:#8b949e;--acc:#58a6ff;--acc2:#3fb950}
   *{box-sizing:border-box}
@@ -42,8 +43,8 @@
 <div class="wrap">
 
   <h1>Praneeth Kumar Kothari</h1>
-  <div class="role">AI Quality Architect · AI-Assisted & Agentic Quality Engineering</div>
-  <p class="lead">I design and own test automation architecture end to end — then make it run as cloud-native infrastructure: containerised, parallel and scalable. 13+ years in software quality engineering, building production Playwright (TypeScript) frameworks from scratch and applying agentic AI to test generation, self-healing and failure triage.</p>
+  <div class="role">Test Architect &amp; AI Quality Architect · Agentic AI, RAG &amp; Cloud-Native Quality Engineering</div>
+  <p class="lead">I design and own enterprise test automation architecture end to end across web, mobile, API security, performance, and accessibility — then run it as containerised, horizontally scalable infrastructure across GCP, Azure, and AWS. 13+ years in software quality engineering (4+ years architecting production Playwright + TypeScript frameworks from scratch), applying RAG-grounded multi-agent workflows and Playwright MCP Server to autonomous test generation, self-healing, and failure triage with enterprise AI governance.</p>
 
   <div class="links">
     <a href="mailto:praneethk.automation@gmail.com">Email</a>
@@ -56,58 +57,60 @@
   <div class="strip">
     <div class="stat"><b>13+</b><span>years in quality engineering</span></div>
     <div class="stat"><b>4+</b><span>years Playwright architecture</span></div>
-    <div class="stat"><b>25%</b><span>faster cross-browser execution</span></div>
     <div class="stat"><b>6 hrs → 3 hrs</b><span>regression cycle time</span></div>
+    <div class="stat"><b>25%</b><span>faster cross-browser execution</span></div>
+    <div class="stat"><b>20–25%</b><span>less AI authoring &amp; maintenance</span></div>
+    <div class="stat"><b>20%</b><span>test flakiness reduction</span></div>
   </div>
 
   <h2 id="projects">Selected work</h2>
 
   <div class="card">
-    <h3>Multi-Agent Test Orchestration Harness</h3>
-    <p>A hierarchical multi-agent workflow where an orchestration agent decomposes a test requirement and delegates to role-specialised agents — test designer, automation author, code reviewer, failure-triage analyst — that collaborate to produce reviewed Playwright specifications. Includes shared task context, tool bindings, an explicit review loop and deterministic replay for debugging.</p>
-    <div class="tags"><span>Agentic AI</span><span>Multi-agent</span><span>Prompt engineering</span><span>Python</span><span>Playwright</span></div>
+    <h3>Agentic AI Quality Engineering &amp; RAG Test Harness</h3>
+    <p>Hierarchical multi-agent architecture integrating Playwright MCP Server, Retrieval-Augmented Generation (RAG) grounded on live OpenAPI schemas, and Planner / Generator / Healer agent loops to generate BDD features, scaffold page objects, repair locators, and triage failures — cutting authoring and maintenance effort by 20–25%. Enforces enterprise AI guardrails including secret redaction, DLP controls, prompt-injection defense, and human-in-the-loop review gates.</p>
+    <div class="tags"><span>Agentic AI</span><span>Playwright MCP</span><span>RAG</span><span>AI Governance</span><span>Python</span><span>TypeScript</span></div>
   </div>
 
   <div class="card">
-    <h3>Containerised, Scalable Test Execution</h3>
-    <p>Self-contained test-environment images with runtime, browsers, browser drivers and tooling baked in, so the same container runs identically on developer machines, on-prem agents and cloud. Ephemeral parallel workers with dynamic shard allocation, per-shard artifact isolation and merged multi-shard reporting.</p>
-    <div class="tags"><span>Docker</span><span>GCP</span><span>Sharding</span><span>Horizontal scaling</span><span>Allure</span></div>
+    <h3>Containerised, Multi-Cloud Parallel Test Execution</h3>
+    <p>Immutable Docker test-environment images and Kubernetes / ephemeral parallel worker orchestration across GCP, Azure, and AWS with dynamic shard fan-out, per-shard artifact isolation, and merged multi-shard observability (ReportPortal &amp; Allure). Eliminated environment drift and accelerated cross-browser and cross-environment execution by 25% while cutting regression cycles from 6 hours to 3 hours.</p>
+    <div class="tags"><span>Docker</span><span>Kubernetes</span><span>GCP / Azure / AWS</span><span>Dynamic Sharding</span><span>ReportPortal</span><span>Allure</span></div>
   </div>
 
   <div class="card">
-    <h3>CI/CD Quality Gates — pipeline agnostic</h3>
-    <p>The same quality-gate architecture delivered across Jenkins, GitHub Actions, Azure DevOps and GitLab CI: parallel stages, matrix builds, dependency caching, release gating and selective execution.</p>
-    <div class="tags"><span>Jenkins</span><span>GitHub Actions</span><span>Azure DevOps</span><span>GitLab CI</span></div>
+    <h3>Enterprise API Security, Contract &amp; Accessibility Quality Gates</h3>
+    <p>Pipeline-agnostic quality-gate architecture delivered across Jenkins, CloudBees, GitHub Actions, Azure DevOps, and GitLab CI — enforcing automated shift-left checks for REST/GraphQL contract compliance (Specmatic, JSON-schema), OWASP API Security Top 10 &amp; rate-limiting, JMeter/Gatling load benchmarks, and WCAG 2.2 AA accessibility auditing (Axe-core) prior to release.</p>
+    <div class="tags"><span>Jenkins / CloudBees</span><span>GitHub Actions</span><span>Azure DevOps</span><span>OWASP API Security</span><span>Specmatic</span><span>WCAG 2.2 AA</span></div>
   </div>
 
   <h2 id="repos">Open-source repositories</h2>
 
   <div class="card">
     <h3><a href="https://github.com/praneeth-kothari/playwright-a11y-suite">playwright-a11y-suite</a></h3>
-    <p>Enterprise WCAG 2.0/2.1/2.2 (Level A & AA) accessibility automation framework on Playwright, TypeScript and axe-core — severity-based build gating (critical/serious fail the build), red-box violation highlighting on failure screenshots, keyboard navigation assertions, dynamic sitemap crawling, consolidated Excel-ready CSV exports, and CI reporting across GitHub Actions (self-updating PR comments, job summaries), Azure DevOps and Jenkins.</p>
-    <div class="tags"><span>Playwright</span><span>TypeScript</span><span>axe-core</span><span>WCAG 2.2 AA</span><span>Accessibility</span><span>GitHub Actions</span><span>Azure DevOps</span><span>Jenkins</span></div>
+    <p>Automated WCAG 2.0/2.1/2.2 (Level A &amp; AA) accessibility framework built on Playwright, TypeScript and axe-core — featuring centralized rule governance, severity-based build gating (critical/serious), red-box DOM violation highlighting on failure screenshots, keyboard focus-trap assertions, dynamic XML sitemap crawling, Excel-ready CSV exports, and native CI reporting across GitHub Actions (self-updating PR comments &amp; job summaries), Azure DevOps and Jenkins.</p>
+    <div class="tags"><span>Playwright</span><span>TypeScript</span><span>axe-core</span><span>WCAG 2.2 AA</span><span>Accessibility (a11y)</span><span>GitHub Actions</span><span>Azure DevOps</span><span>Jenkins</span></div>
   </div>
 
   <div class="card">
     <h3><a href="https://github.com/praneeth-kothari/multi-agent-test-orchestration">multi-agent-test-orchestration</a></h3>
-    <p>Hierarchical multi-agent workflow where an orchestrator agent decomposes a test requirement and delegates to role-specialised agents — requirement analysis (test designer), code agent (Playwright author), review agent (QA standards enforcement) and healer agent (failure triage). Includes shared task context, tool bindings and deterministic replay.</p>
-    <div class="tags"><span>Agentic AI</span><span>Multi-agent orchestration</span><span>Prompt engineering</span><span>Python</span><span>Playwright</span><span>Deterministic replay</span></div>
+    <p>Hierarchical multi-agent test orchestration harness where an Orchestrator agent decomposes requirements and delegates to role-specialised sub-agents — Requirement Analysis (test design), Code Agent (Playwright TypeScript specs), Review Agent (QA standards enforcement), and Healer Agent (failure triage across app, test, env, and data causes). Supports zero-API-key deterministic offline replay and live OpenAI execution.</p>
+    <div class="tags"><span>Agentic AI</span><span>Multi-Agent Orchestration</span><span>Python</span><span>Playwright</span><span>Prompt Engineering</span><span>Deterministic Replay</span></div>
   </div>
 
   <div class="card">
     <h3><a href="https://github.com/praneeth-kothari/selenium-framework-github-actions">selenium-framework-github-actions</a></h3>
-    <p>End-to-end automation framework on Selenium WebDriver 4, Java 17, Cucumber BDD, JUnit 5 and Allure reporting — 15 UI user journeys against the Swag Labs demo store plus 5 REST Assured API tests, executed through a GitHub Actions pipeline.</p>
-    <div class="tags"><span>Java 17</span><span>Selenium 4</span><span>Cucumber</span><span>JUnit 5</span><span>REST Assured</span><span>Allure</span><span>GitHub Actions</span></div>
+    <p>End-to-end E2E automation framework built with Selenium WebDriver 4.25, Java 17, Cucumber BDD, JUnit 5, REST Assured, JaCoCo coverage, and Allure reporting — covering 15 UI user journeys on Swag Labs and 5 REST API contract tests with preflight environment checks and dual Jenkins &amp; GitHub Actions pipelines.</p>
+    <div class="tags"><span>Java 17</span><span>Selenium 4</span><span>Cucumber BDD</span><span>JUnit 5</span><span>REST Assured</span><span>Allure</span><span>JaCoCo</span><span>Jenkins</span><span>GitHub Actions</span></div>
   </div>
 
   <h2>Capabilities</h2>
   <div class="sk">
-    <div><b>Agentic AI & LLM-assisted QE</b><p>Multi-agent orchestration, prompt engineering and context design, self-healing locators, autonomous triage, legacy automation modernisation</p></div>
-    <div><b>Automation architecture</b><p>Frameworks from scratch, Page Object Model, Page Factory, Singleton/Factory patterns, governance, reusable libraries, coding standards</p></div>
-    <div><b>Playwright (TypeScript)</b><p>Fixtures, storage state, tracing, sharding and shard fan-out with blob-report merging, network interception, API via Request Context</p></div>
-    <div><b>Cloud, containers & scale</b><p>GCP execution infrastructure, Docker test environments, distributed parallel grids, Azure SQL data validation</p></div>
-    <div><b>API, auth & contracts</b><p>REST and GraphQL, JSON-schema contracts, REST Assured, OAuth 2.0 / Bearer / Basic / NTLM</p></div>
-    <div><b>Domain</b><p>Financial services (banking, P&C insurance), enterprise SaaS, mainframe/AS400, Test Data Management</p></div>
+    <div><b>Agentic AI, RAG &amp; AI Governance</b><p>Playwright MCP Server, RAG grounding, Planner/Generator/Healer loops (Cursor, Kiro, Copilot, Claude), self-healing (Healenium), LLM evals, DLP &amp; prompt-injection guardrails</p></div>
+    <div><b>Automation Architecture &amp; Strategy</b><p>Enterprise frameworks from scratch, POM, Page Factory, Singleton/Factory patterns, shift-left governance, reusable libraries, WCAG 2.2 AA accessibility (Axe-core)</p></div>
+    <div><b>Web &amp; Mobile (Playwright, Cypress, Appium)</b><p>Playwright (TypeScript) custom fixtures, storage-state isolation, tracing, dynamic shard fan-out with blob-report merging, Request Context, Cypress, Selenium, Appium (iOS/Android)</p></div>
+    <div><b>Cloud, Containers &amp; Observability</b><p>Immutable Docker images, Kubernetes &amp; ephemeral parallel workers across GCP, Azure &amp; AWS, Azure SQL/SQL Server validation, ReportPortal, Allure &amp; quality KPIs</p></div>
+    <div><b>API, Contract, Security &amp; Performance</b><p>REST &amp; GraphQL, OpenAPI &amp; consumer-driven contracts (Specmatic, JSON-schema), REST Assured, OWASP API Security Top 10, OAuth 2.0/Bearer/Basic/NTLM, JMeter &amp; Gatling</p></div>
+    <div><b>CI/CD &amp; Domain Expertise</b><p>Pipeline-agnostic quality gates (Jenkins, CloudBees, GitHub Actions, Azure DevOps, GitLab CI); Financial Services (banking, capital markets, P&amp;C insurance), API Gateways &amp; Enterprise SaaS</p></div>
   </div>
 
   <h2>Experience</h2>
@@ -118,7 +121,7 @@
   <div class="job"><div><strong>Medwell Ventures</strong> — Senior Quality Analyst</div><span>May 2012 – Jan 2017</span></div>
 
   <footer>
-    Open to Automation Architect / AI Quality Architect roles in India and UAE/GCC ·
+    Open to Automation Architect / AI Quality Architect / Automation Lead / Test Manager roles in India and UAE/GCC ·
     Hyderabad, India · praneethk.automation@gmail.com
   </footer>
 
