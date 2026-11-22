@@ -23,5 +23,5 @@ Zero-dependency static HTML/CSS — one self-contained `index.html` with inline 
 
 ---
 
-Praneeth Kumar Kothari · [praneethk.automation@gmail.com](mailto:praneethk.automation@gmail.com) · [LinkedIn](https://linkedin.com)
+Praneeth Kumar Kothari · +91 91002 10900 · [praneethk.automation@gmail.com](mailto:praneethk.automation@gmail.com) · [LinkedIn](https://linkedin.com)
 
