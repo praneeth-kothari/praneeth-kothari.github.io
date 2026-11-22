@@ -17,6 +17,7 @@ No framework, no build step. One self-contained `index.html` with inline CSS.
 
 ## Related repositories
 
+- [playwright-a11y-suite](https://github.com/praneeth-kothari/playwright-a11y-suite)
 - [multi-agent-test-orchestration](https://github.com/praneeth-kothari/multi-agent-test-orchestration)
 - [selenium-framework-github-actions](https://github.com/praneeth-kothari/selenium-framework-github-actions)
 
